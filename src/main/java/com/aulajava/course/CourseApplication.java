@@ -6,6 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages={"resources"})
+@ComponentScan(basePackages={"entities"})
+
 
 public class CourseApplication {
 
