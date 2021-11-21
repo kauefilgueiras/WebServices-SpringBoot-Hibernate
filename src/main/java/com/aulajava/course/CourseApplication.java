@@ -5,8 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages={"resources"})
-@ComponentScan(basePackages={"entities"})
+@ComponentScan(basePackages={"com.aulajava.course.resources"})
+@ComponentScan(basePackages={"com.aulajava.course.entities"})
+
 
 
 public class CourseApplication {
